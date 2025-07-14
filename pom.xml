@@ -12,4 +12,11 @@
     <maven.compiler.source>21</maven.compiler.source>
     <maven.compiler.target>21</maven.compiler.target>
   </properties>
+
+  <modules>
+    <module>banking-app</module>
+    <module>banking-command</module>
+    <module>banking-query</module>
+    <module>../cqrs-core</module>
+  </modules>
 </project>
